@@ -547,7 +547,7 @@ content */
 }
 
 .subscribe {
-    display: block;
+   
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -556,8 +556,10 @@ content */
 
 }
 
-.subscribe-fom {
+.subscribe-form {
     margin-left: 80px;
+
+   
 }
 
 .subscribe-input {
@@ -566,8 +568,7 @@ content */
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    display: block;
-    margin-top: 16px;
+    
     background: #2e2f42;
 }
 
@@ -580,7 +581,7 @@ content */
     padding-left: 16px;
 }
 
-.ubscribe-btn {
+.subscribe-btn {
 
     border-radius: 4px;
     padding: 8px 24px;
@@ -591,8 +592,8 @@ content */
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin-left: 24px;
     border: none;
+    cursor: pointer;
    
 
 }
@@ -607,9 +608,17 @@ content */
     color: #fff;
 }
 
-.emeil-svg {
+.email-svg {
     fill: white;
+    display: block;
 
+}
+.footer-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    gap: 24px;
 }
 
 /* MODAL */
