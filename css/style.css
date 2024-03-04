@@ -820,7 +820,13 @@ content */
     border: none; 
 }
 .user-privacy-label{
-    line-height: 1.17;  
+    line-height: 1.17; 
+    
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99; 
 }
 
 .modal-checkbox:focus+.privacy-policy-label .checkbox-span {
