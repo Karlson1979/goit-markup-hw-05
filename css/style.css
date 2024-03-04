@@ -682,6 +682,7 @@ content */
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     fill: #ffff;
+    border: none; 
 }
 .modal-close-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -721,7 +722,7 @@ content */
 }
 
 .modal-form-block {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 
 }
 
@@ -806,7 +807,7 @@ content */
     margin-bottom: 24px;
 }
 
-.modal-checkbox:checked+.privacy-policy-label .checkbox-span {
+.modal-checkbox:checked + .privacy-policy-label .checkbox-span {
     background-color: #404bbf;
     fill: #F4F4FD; 
     border: none; 
