@@ -576,7 +576,7 @@ content */
     line-height: 2; 
     letter-spacing: 0.04em;
     padding-left: 16px; 
-    color #ffffff;
+    color: #ffffff;
 }
 
 .subscribe-input::placeholder {
@@ -584,12 +584,12 @@ content */
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     padding-left: 16px;
 }
 
 .subscribe-btn {
-
+   
     border-radius: 4px;
     padding: 8px 24px;
     min-width: 165px;
@@ -607,15 +607,7 @@ content */
     color: #ffffff;
 }
 
-.txt-btn {
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: center;
-    color: #fff;
-}
 
 .email-svg {
     fill: white;
