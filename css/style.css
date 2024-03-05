@@ -598,7 +598,6 @@ content */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     border: none;
     cursor: pointer;
     font-weight: 500;
@@ -617,9 +616,9 @@ content */
 
 .footer-form {
     display: flex;
-    justify-content: center;
+    
     align-items: center;
-    margin-top: 16px;
+    
     gap: 24px;
 }
 
